@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.about {
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex-end;
+    align-items: center;
+    justify-content: center;
+    column-gap: 300px;
+}
+
+.about-img{
+    block-size: fit-content;
+}
+.about-img img {
+    width: 20rem;
+    border-radius: 200px;
+    -webkit-border-radius: 200px;
+    -moz-border-radius: 200px;
+    -ms-border-radius: 200px;
+    -o-border-radius: 200px;
+}
+.about-text{
+    flex-basis: 500px;
+    font-size: 40px;
+    padding-top: 1em;
+    
+    color: aliceblue;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+.about-text h2{
+    flex-basis: 500px;
+    font-size: 50px;
+    color: rgb(55, 55, 210);
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+.about p {
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 20px;
+    color: aliceblue;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+}
+.about-me {
+    font-size: 13px;
+    border-bottom: 4px solid rgb(55, 55, 210);
+    border-radius: 4px;
+    padding: 40px;
+    color: aliceblue;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.about a {
+    font-size: 14px;
+    width: fit-content;
+    margin-top: 10px;
+    display: block;
+    background-color: rgb(55, 55, 210);
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 6px;
+    position: center;
+    text-decoration: none;
+    font-family: "montserrat", sans-serif;
+    text-transform: uppercase;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
